@@ -21,5 +21,9 @@ namespace dmc {
         public MainWindow () {
             InitializeComponent ();
         }
+
+        private void ExitClick (object sender, RoutedEventArgs e) {
+            Close ();
+        }
     }
 }
