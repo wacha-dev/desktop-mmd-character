@@ -10,6 +10,11 @@
         Background="Transparent"
         WindowStyle="None"
         >
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Header="exit" Click="ExitClick"/>
+        </ContextMenu>
+    </Window.ContextMenu>
     <Grid>
         <Image Source="character.png"/>
     </Grid>
