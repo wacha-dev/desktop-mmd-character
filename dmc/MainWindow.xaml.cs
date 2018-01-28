@@ -21,5 +21,16 @@ namespace dmc {
         public MainWindow () {
             InitializeComponent ();
         }
+
+        private void Quit_Clicked(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+            DragMove();
+        }
     }
 }

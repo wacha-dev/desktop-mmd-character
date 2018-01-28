@@ -9,7 +9,13 @@
         AllowsTransparency="True"
         Background="Transparent"
         WindowStyle="None"
+        ResizeMode="NoResize"
         >
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Header="終了" Click="Quit_Clicked"/>
+        </ContextMenu>
+    </Window.ContextMenu>
     <Grid>
         <Image Source="character.png"/>
     </Grid>
